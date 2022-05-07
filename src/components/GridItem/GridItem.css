@@ -1,0 +1,28 @@
+.grid-box {
+  background-color: #2222;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline;
+}
+
+.grid-image img {
+  height: 270px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.grid-name-price {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.grid-name-price > p {
+  font-weight: bold;
+}
+
+.grid-description p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
