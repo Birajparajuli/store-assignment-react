@@ -1,0 +1,16 @@
+.filter-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+.filter {
+  display: flex;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.categories {
+  display: flex;
+}
